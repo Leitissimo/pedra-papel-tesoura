@@ -5,6 +5,7 @@ button{
     border-radius: 30px;
     border: none;
     background-color: #333333;
+    
 }
 body{
     margin: 0;
@@ -52,6 +53,5 @@ body{
     border-radius: 10px;                 
     color: white;                         
 }
-
 
 
