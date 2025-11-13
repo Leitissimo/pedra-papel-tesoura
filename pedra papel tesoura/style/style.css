@@ -1,0 +1,56 @@
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 30px;
+    border: none;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #BD1983;
+    background: linear-gradient(90deg, rgba(189, 25, 131, 1) 0%, rgba(252, 176, 69, 1) 50%, rgba(37, 138, 82, 1) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.msg{
+    margin-bottom: 20px;
+    font-size: 200%;
+    font-family: Knewave;
+    color: black
+
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+}
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.container2 {
+    position: relative;
+}
+
+.texto-canto {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#placar {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 15px;                  
+    border-radius: 10px;                 
+    color: white;                         
+}
+
+
